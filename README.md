@@ -106,3 +106,10 @@ This service request info of blocks validated in blockchain
 POST http://localhost:3000/nodo_blocks
 No Parameters
 
+
+
+
+# License
+Code released under the MIT license.
+
+Copyright 2020-2021 Beba Coin, Inc.
