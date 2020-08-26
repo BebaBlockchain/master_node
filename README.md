@@ -29,7 +29,7 @@ Install NodeMon
 Allow Full Permission to node folder
 
 # Installation
-Clone from https://github.com/ChrisQbit/Nodo-Maestro-Criptomoneda.git
+Clone from https://github.com/BebaBlockchain/master_node.git
 npm install
 Composer Install
 
@@ -73,7 +73,7 @@ POST http://localhost:3000/pin_blockchain
 No Parameters
 
 
-3.0 GET WALLET INFO
+4.0 GET WALLET INFO
 This service request wallet information
 send in parammeters json the wallet than you are lookin for
 POST http://localhost:3000/nodo_get_wallet_info
@@ -83,14 +83,14 @@ Parameters
 }
 
 
-4.0 GET ALL WALLET
+5.0 GET ALL WALLET
 This service request all wallets from node
 POST http://localhost:3000/nodo_all_wallets
 No Parameters
 
 
 
-5.0 SERVICE INSTANT SEND
+6.0 SERVICE INSTANT SEND
 This service allow instant send crypto coins bethween wallets on blockchain
 POST http://localhost:3000/nodo_send
 Parameters (String)
@@ -101,7 +101,7 @@ Parameters (String)
 }
 
 
-6.0 GET BLOCK INFO
+7.0 GET BLOCK INFO
 This service request info of blocks validated in blockchain
 POST http://localhost:3000/nodo_blocks
 No Parameters
