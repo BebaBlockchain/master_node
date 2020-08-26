@@ -32,7 +32,9 @@ Install NodeMon
 Allow Full Permission to node folder
 
 # Installation
-Clone from https://github.com/BebaBlockchain/master_node.git
+Clone from https://github.com/BebaBlockchain/master_node.gitg
+UNZIP file MASTER_NODO.zip
+Go to Path MASTER_NODO>
 npm install
 Composer Install
 
