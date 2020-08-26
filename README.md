@@ -108,7 +108,7 @@ POST http://localhost:3000/nodo_blocks
 No Parameters
 
 
-7.0 GET LAST TRANSACTIONS
+7.0 GET LAST CONFIRMED TRANSACTIONS
 This service return last transactions of wallet
 POST http://localhost:3000/nodo_last_transactions
 Parameters
