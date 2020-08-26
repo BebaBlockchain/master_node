@@ -6,6 +6,8 @@ A Node to create applications and services with Node JS, it is extensible and co
 The Node contains blockchain services, wallet services and cryptocurrency transactions, transaction mining. The node allows to extend its 
 capabilities which makes it scalable according to your needs. It is possible to add a backoffice and expose API services for your community.
 
+IMPORTANT !!! 
+This node is only backend , the API service no contain UI, you are free to apply the front end according the Documentation.
 
 Services:
 
@@ -55,6 +57,8 @@ Once the node is online, we can access the aforementioned services to start proc
 
 The first call, after run (yarn start)
 
+
+# Documentation
 
 1.0 PIN BLOCKCHAIN
 This service make pin and start the general service node.
