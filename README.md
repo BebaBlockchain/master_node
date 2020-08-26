@@ -121,6 +121,25 @@ Parameters
 }
 
 
+
+
+# Configuration Information 
+
+Path Config File:
+MASTER_NODO/service/index.js lloking for the next section in the top
+According to your API KEY and Data, Replace the value for yours
+
+// ************ VARIABLES DINAMICAS (NODO CONFIGURACION) ****************
+const blockchain_domain = "https://blockexplorer.club";
+const cryptocoin = "Bebacoin";
+const port = 3000;
+const user_node = "EXAMPLE Exchange";
+var connection = "Desconectado...";
+const ident = "T3ST455555ID3NT";
+const api_key = "M4ST3RK3Y00000001";
+const wallet_nodo = "047c2297c49285d2c86b33fb0cd120fbd4ed9bcde897b0592f202ed5c112945ef48e4d30d7373f603dc0f355cf92e59b0e3e8b01812ef6ea774c6123a53fea4956";
+// *********** FIN CONFIGURACION NODO ***********************************
+
 # License
 Code released under the MIT license.
 
