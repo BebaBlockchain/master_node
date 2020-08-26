@@ -16,6 +16,7 @@ Services:
 - Make instant transactions
 - Get blockchain public info
 - Create Blockchain Users
+- Get list Confirmed transactions
 
 
 #Pre Install
@@ -107,6 +108,13 @@ POST http://localhost:3000/nodo_blocks
 No Parameters
 
 
+7.0 GET LAST TRANSACTIONS
+This service return last transactions of wallet
+POST http://localhost:3000/nodo_last_transactions
+Parameters
+{
+  "wallet":"CDvVDdf8635t73ue83jh8ud8jdid39EDDEDEDEmjd8837363653icCECECECEE"
+}
 
 
 # License
