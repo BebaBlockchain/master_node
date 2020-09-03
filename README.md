@@ -37,7 +37,7 @@ Go to Path MASTER_NODO>
 npm install
 
 IMPORTANT !! 
-If you have troubles on install npm , delete folder "node_modules" inside of MASTER_NODO folder and re run command npm install
+If you have troubles on install npm , delete folder "node_modules" inside of MASTER_NODO folder and run again command npm install
 
 
 Once we have all the components installed on the server, we access the path of our example node via CMD (Command Line):
