@@ -107,7 +107,7 @@ No Parameters
 6.0 SERVICE INSTANT SEND
 This service allow instant send crypto coins bethween wallets on blockchain
 POST http://localhost:3000/nodo_send
-Parameters (String)
+Parameters Json
 {
   "wallet":"CDvVDdf8635t73ue83jh8ud8jdid39EDDEDEDEmjd8837363653icCECECECEE",
   "recipient":"CDvVDdf8635t73ue83jh8ud8jdid39EDDEDEDEmjd8837363653icCECECECEE",
