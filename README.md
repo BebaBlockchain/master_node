@@ -36,7 +36,9 @@ Clone from https://github.com/BebaBlockchain/master_node.gitg
 UNZIP file MASTER_NODO.zip
 Go to Path MASTER_NODO>
 npm install
-Composer Install
+
+IMPORTANT !! 
+If you have troubles on install npm , delete folder "node_modules" inside of MASTER_NODO folder and re run comman npm install
 
 
 Once we have all the components installed on the server, we access the path of our example node via CMD (Command Line):
@@ -76,9 +78,15 @@ No Parameters
 
 3.0 CREATE REQUEST WALLET
 This service request wallet from blockchain and return a user
-POST http://localhost:3000/pin_blockchain
+POST http://localhost:3000/nodo_create_wallet
 No Parameters
-
+Result Example:
+{
+  "internal_pass":"REC84654DE73&TG",
+  "wallet":"029q273726525236353fdgdduid76d6eg3ju8d87ydwihwidj9d7d6dijd8dh7dst563",
+  "email":"nodeuserexample@blockexplorer.club",
+  "balance":0
+}
 
 4.0 GET WALLET INFO
 This service request wallet information
