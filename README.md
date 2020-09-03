@@ -27,8 +27,7 @@ System Windows 10 2 RAM Core i3 (Min) Open PORT Configuration
 Install Git
 Install Composer
 Install Node JS
-Install Babel
-Install NodeMon
+Install Yarn
 Allow Full Permission to node folder
 
 # Installation
